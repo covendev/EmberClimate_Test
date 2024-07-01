@@ -3,3 +3,11 @@ folium
 branca
 Flask==2.2.3
 Frozen-Flask==0.18
+requests
+nearpy
+futures
+Markdown==3.4.1
+pytest==7.2.1
+pytest-cov==4.0.0
+flake8==6.0.0
+Werkzeug==2.2.2
