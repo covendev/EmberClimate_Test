@@ -94,4 +94,4 @@ def index():
     return render_template('clean_values_map.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    freezer.freeze()
