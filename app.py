@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import folium
 import pandas as pd
 import branca.colormap as cm
-
+from flask_frozen import Freezer
 app = Flask(__name__)
 freezer = Freezer(app)
 
