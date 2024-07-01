@@ -4,6 +4,7 @@ import pandas as pd
 import branca.colormap as cm
 
 app = Flask(__name__)
+freezer = Freezer(app)
 
 @app.route('/')
 def index():
